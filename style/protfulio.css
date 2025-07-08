@@ -92,7 +92,41 @@ nav li a{
 
 /* *main section style */
 
+main{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* *About section style */
+
+
+
+.about-me{
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 110px;
+    background-color: #FFF8F3;
+}
 
 .about-tittel{
-    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: #1E1E1E;
+}
+.about-discription{
+    font-weight: 600;
+    font-size: 18px;
+    color: #181818;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+.item-tittel{
+    font-weight: bold;
+    color: #1E1E1E;
+}
+.item-tittel-discription{
+    color: #181818;
+    font-weight: 600;
 }

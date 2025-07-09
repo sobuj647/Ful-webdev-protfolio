@@ -130,3 +130,67 @@ main{
     color: #181818;
     font-weight: 600;
 }
+
+
+/* *skill style */
+
+.my-skill{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #fff7f3;
+}
+.skill-tittle{
+    font-weight: bold;
+    color: #1E1E1E;
+}
+.skill-discripton{
+    color: #181818;
+    font-weight: 600;
+}
+.skill-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    /* border: 2px solid tomato; */
+    background-color: #f6efeb;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.skill-item-box{
+    padding: 5px;
+    margin: 15px;
+    /* border: 2px solid red; */
+    background-color: #e8e8e8;
+    box-shadow: 5px 5px #aeaeae;
+    border-radius: 5px;
+}
+.skill-cnt-tittel{
+    font-weight: 600;
+    color: #181818;
+}
+.skill-cnt-discription{
+    font-weight: 600;
+    color: #1E1E1E;
+}
+.skill-item-js{
+    /* border: 2px solid seagreen; */
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.skill-item-react{
+    /* border: 5px solid sandybrown; */
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.skill-item-node{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.skill-item-mongo{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}

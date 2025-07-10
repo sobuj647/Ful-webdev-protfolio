@@ -18,6 +18,11 @@
 
 
 /* * shared style */
+
+.secondary-bg{
+    background-color: #FFF8F3;
+
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -193,4 +198,103 @@ main{
     border-radius: 10px;
     margin-top: 10px;
     margin-left: 5px;
+}
+
+
+/* *resume section style */
+
+
+.section-tittel{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-column-tittel{
+    font-weight: bold;
+    font-size: 30px;
+    color: #1E1E1E;
+}
+.experience-tittle{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+}
+.experience-sub-tittle{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+.experienc-discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* *footer styles */
+
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
+}
+.ft-column-tittel{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.icon{
+    margin-top: 50px;
+}
+.icon a{
+    padding-top: 15px;
+    margin-right: 5px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+.icon a img{
+    height: 30px;
+    width: 50px;
+}
+footer input[type="text"] ,footer input[type="email"]{
+    display: block;
+    height: 64px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 24px;
+    background-color: white;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+footer textarea{
+     display: block;
+    border-radius: 5px;
+    width: 100%
+}
+footer input[type="submit"]{
+    margin-top: 24px;
+}
+input::placeholder{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+    padding-left: 5px;
+}
+textarea{
+    font-size: 30px;
+    font-weight: 400;
+    color: #181616;
+    padding-left: 5px;
 }
